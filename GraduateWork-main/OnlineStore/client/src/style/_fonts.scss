@@ -1,0 +1,5 @@
+@import "mixin/font-face";
+
+@include font-face("Exo", "../../resources/fonts/exo", 900, bold);
+@include font-face("Manrope", "../../resources/fonts/manrope", 400, normal);
+@include font-face("Play", "../../resources/fonts/play", 400, normal);

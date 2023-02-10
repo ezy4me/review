@@ -1,0 +1,29 @@
+/*base*/
+@import "fonts";
+@import "global";
+@import "overall";
+@import "vars";
+
+/*pages*/
+@import "./pages/auth";
+@import "./pages/shop";
+@import "./pages/device";
+@import "./pages/cart";
+
+/*components*/
+@import "./components/header/_highHeader";
+@import "./components/header/lowHeader";
+@import "./components/main-page/mainCategories";
+@import "./components/main-page/topBrands";
+@import "./components/main-page/ourSocial";
+@import "./components/shop-page/brandList";
+@import "./components/shop-page/deviceItem";
+@import "./components/shop-page/deviceList";
+@import "./components/shop-page/typeList";
+@import "./components/footer/footer";
+
+/*vendor*/
+@import "vendor";
+
+/*mixin*/
+@import "mixins.scss";

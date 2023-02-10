@@ -1,0 +1,14 @@
+export const REGISTRATION_ROUTE = '/registration'
+export const LOGIN_ROUTE = '/login'
+export const CART_ROUTE = '/cart'
+export const DEVICE_ROUTE = '/device'
+export const ORDER_MENU_ROUTE = '/order'
+export const PERSONAL_AREA_ROUTE = '/personal-area'
+export const SHOP_ROUTE = '/devices'
+export const MAIN_ROUTE = '/'
+export const ABOUT_ROUTE = "/about"
+export const CONTACTS_ROUTE = "/contacts"
+export const DELIVERY_ROUTE = "/delivery"
+export const FINDUS_ROUTE = "/find-us"
+export const GUARANTEE_ROUTE = "/guarantee"
+export const NOTFOUND_ROUTE = "/not-found"
