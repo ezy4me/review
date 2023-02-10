@@ -1,0 +1,103 @@
+.cart {
+  &__title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  &__order-form {
+    width: 100%;
+    height: max-content;
+    border: 2px solid var(--bgColor);
+    padding: 20px;
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+
+.order__product {
+  justify-content: space-between;
+  align-items: center;
+
+  &--item:nth-child(2) {
+    margin-left: 50px;
+  }
+
+  &--item:last-child {
+    display: flex;
+    order: 999;
+    margin-left: auto;
+    align-items: end;
+  }
+}
+
+.device-info {
+  &__name {
+    font-family: 'Play', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  &__rate {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__price {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.cart__complete {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr max-content;
+  grid-template-columns: 1fr max-content;
+  align-items: center;
+  grid-column-gap: 20px;
+  padding: 20px 10px 10px;
+  background: #56BDC5;
+  margin-bottom: 40px;
+
+  &-form {
+    display: -ms-grid;
+    display: grid;
+    grid-column: 1/-1;
+    grid-row-gap: 36px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    padding: 30px;
+    align-items: center;
+    background: #fff;
+  }
+}
+
+.form__list {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.btn__payment {
+  background-color: var(--accientColor);
+  color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.total__price {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

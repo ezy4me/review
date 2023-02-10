@@ -1,0 +1,49 @@
+.brandbar {
+  height: max-content;
+  width: max-content;
+  border: 3px solid var(--bgColor);
+
+  &__h3--title {
+    text-align: center;
+    border-bottom: 2px solid var(--bgColor);
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    padding: 10px 46px;
+  }
+
+  &__list {
+    &--item {
+      text-align: left;
+      border-bottom: 1px solid var(--bgColor);
+      font-family: 'Play', sans-serif;
+      font-size: 16px;
+      padding: 5px 20px;
+      cursor: pointer;
+    }
+
+    &--item:active {
+      background-color: var(--accientColor);
+      color: var(--whiteColor);
+    }
+
+    &--item:nth-child(n + 5) {
+      display: none;
+    }
+  }
+
+  &__btn {
+    text-align: center;
+
+    &--show {
+      background-color: var(--accientColor);
+      color: var(--whiteColor);
+      border-radius: 30px;
+      padding: 10px 30px;
+      margin: 10px 0;
+    }
+  }
+}
+
+.brandbar__list--item.is-visible {
+  display: block;
+}
